@@ -1,0 +1,29 @@
+[project]
+name = "carbon-capture"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "earthengine-api>=1.6.2",
+    "matplotlib>=3.10.1",
+    "mpl-chord-diagram>=0.4.1",
+    "pyproj>=3.7.1",
+    "rasterio>=1.4.3",
+    "sisepuede",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D"]
+
+[tool.basedpyright]
+typeCheckingMode = "standard"
+
+[tool.uv.sources]
+sisepuede = { git = "https://github.com/RodolfoFigueroa/sisepuede" }

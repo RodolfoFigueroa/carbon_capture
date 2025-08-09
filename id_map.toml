@@ -1,0 +1,29 @@
+[croplands]
+ranges = [[10, 20]]
+
+[flooded]
+ranges = [[210, 210]]
+
+[forests]
+ranges = [[51, 92]]
+
+[forests_mangroves]
+ranges = [[185, 185]]
+
+[grasslands]
+ranges = [[140, 140]]
+
+[grasslands_to_pastures]
+ranges = [[130, 130]]
+
+[other]
+ranges = [[150, 153], [200, 202], [50, 50], [220, 220]]
+
+[settlements]
+ranges = [[190, 190]]
+
+[shrublands]
+ranges = [[120, 122]]
+
+[wetlands]
+ranges = [[181, 184], [186, 187]]
